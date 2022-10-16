@@ -1,0 +1,473 @@
+{
+  "address": "0x7A359570666a126247f0Fefb7E4b51D14C645703",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "adminCall",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "hash",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "contractAddress",
+          "type": "address"
+        }
+      ],
+      "name": "factoryDeployedHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "adminAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "contractType",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getContractTypeAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "chainId",
+          "type": "uint32"
+        }
+      ],
+      "name": "getHToken",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getHolograph",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "holograph",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "hash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getHolographedHashAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "init",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "smartContract",
+          "type": "address"
+        }
+      ],
+      "name": "isHolographedContract",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "hash",
+          "type": "bytes32"
+        }
+      ],
+      "name": "isHolographedHashDeployed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "contractAddress",
+          "type": "address"
+        }
+      ],
+      "name": "referenceContractTypeAddress",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "adminAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "contractType",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "contractAddress",
+          "type": "address"
+        }
+      ],
+      "name": "setContractTypeAddress",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint32",
+          "name": "chainId",
+          "type": "uint32"
+        },
+        {
+          "internalType": "address",
+          "name": "hToken",
+          "type": "address"
+        }
+      ],
+      "name": "setHToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "holograph",
+          "type": "address"
+        }
+      ],
+      "name": "setHolograph",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "hashes",
+          "type": "bytes32[]"
+        },
+        {
+          "internalType": "bool[]",
+          "name": "reserved",
+          "type": "bool[]"
+        }
+      ],
+      "name": "updateReservedContractTypes",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xdb9622db94746a236387c221ee846c46b4abc151c160aaaaf93644d081902a0d",
+  "receipt": {
+    "to": "0x9F69AEFbB4418A1B4642116B5c8c2b30896019a8",
+    "from": "0xd078E391cBAEAa6C5785124a7207ff57d64604b7",
+    "contractAddress": null,
+    "transactionIndex": 4,
+    "gasUsed": "1285080",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xb41178685c632c8e7307373a6c5d5ea237a8bf0c0d94fd0ced23edb888a37838",
+    "transactionHash": "0xdb9622db94746a236387c221ee846c46b4abc151c160aaaaf93644d081902a0d",
+    "logs": [],
+    "blockNumber": 11294737,
+    "cumulativeGasUsed": "3309185",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 2,
+  "solcInputHash": "2e4e12d7d604fac31e1a6fca2c3b50e3",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"admin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"adminCall\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"contractAddress\",\"type\":\"address\"}],\"name\":\"factoryDeployedHash\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAdmin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"adminAddress\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"contractType\",\"type\":\"bytes32\"}],\"name\":\"getContractTypeAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint32\",\"name\":\"chainId\",\"type\":\"uint32\"}],\"name\":\"getHToken\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getHolograph\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"holograph\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"}],\"name\":\"getHolographedHashAddress\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"init\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"smartContract\",\"type\":\"address\"}],\"name\":\"isHolographedContract\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"}],\"name\":\"isHolographedHashDeployed\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"contractAddress\",\"type\":\"address\"}],\"name\":\"referenceContractTypeAddress\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"adminAddress\",\"type\":\"address\"}],\"name\":\"setAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"contractType\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"contractAddress\",\"type\":\"address\"}],\"name\":\"setContractTypeAddress\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint32\",\"name\":\"chainId\",\"type\":\"uint32\"},{\"internalType\":\"address\",\"name\":\"hToken\",\"type\":\"address\"}],\"name\":\"setHToken\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"holograph\",\"type\":\"address\"}],\"name\":\"setHolograph\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32[]\",\"name\":\"hashes\",\"type\":\"bytes32[]\"},{\"internalType\":\"bool[]\",\"name\":\"reserved\",\"type\":\"bool[]\"}],\"name\":\"updateReservedContractTypes\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"This smart contract stores the different source codes that have been prepared and can be used for bridging.We will store here the layer 1 for ERC721 and ERC1155 smart contracts.This way it can be super easy to upgrade/update the source code once, and have all smart contracts automatically updated.\",\"kind\":\"dev\",\"methods\":{\"constructor\":{\"details\":\"Constructor is left empty and only the admin address is set.\"},\"factoryDeployedHash(bytes32,address)\":{\"details\":\"Allows Holograph Factory to register a deployed contract, referenced with deployment hash.\"},\"getContractTypeAddress(bytes32)\":{\"details\":\"Returns the contract address for a contract type.\"},\"getHToken(uint32)\":{\"details\":\"Returns the hToken address for a given chain id.\"},\"getHolographedHashAddress(bytes32)\":{\"details\":\"Returns the address for a holographed hash\"},\"init(bytes)\":{\"details\":\"An array of initially reserved contract types for admin only to set.\"},\"referenceContractTypeAddress(address)\":{\"details\":\"Allows to reference a deployed smart contract, and use it's code as reference inside of Holographers.\"},\"setContractTypeAddress(bytes32,address)\":{\"details\":\"Sets the contract address for a contract type.\"},\"setHToken(uint32,address)\":{\"details\":\"Sets the hToken address for a specific chain id.\"},\"updateReservedContractTypes(bytes32[],bool[])\":{\"details\":\"Allows admin to update or toggle reserved types.\"}},\"stateVariables\":{\"_contractTypeAddresses\":{\"details\":\"Storage slot for saving contract type to contract address references.\"},\"_hTokens\":{\"details\":\"Mapping of all hTokens available for the different EVM chains\"},\"_holographedContracts\":{\"details\":\"A list of smart contracts that are guaranteed secure and holographable.\"},\"_holographedContractsHashMap\":{\"details\":\"A list of hashes and the mapped out contract addresses.\"},\"_reservedTypes\":{\"details\":\"Reserved type addresses for Admin.  Note: this is used for defining default contracts.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/HolographRegistry.sol\":\"HolographRegistry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"none\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"contracts/HolographRegistry.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\n/*\\n\\n                         \\u250c\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2510\\n                         \\u2502 HOLOGRAPH \\u2502\\n                         \\u2514\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2518\\n\\u2554\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2557\\n\\u2551                                                             \\u2551\\n\\u2551                            / ^ \\\\                            \\u2551\\n\\u2551                            ~~*~~            \\u00b8               \\u2551\\n\\u2551                         [ '<>:<>' ]         \\u2502\\u2591\\u2591\\u2591            \\u2551\\n\\u2551               \\u2554\\u2557           _/\\\"\\\\_           \\u2554\\u2563               \\u2551\\n\\u2551             \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510          \\\"\\\"\\\"          \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510             \\u2551\\n\\u2551          \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510       \\\\_/       \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510          \\u2551\\n\\u2551       \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510           \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510       \\u2551\\n\\u2551    \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510     \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510    \\u2551\\n\\u2551 \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2510 \\u250c\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510 \\u2551\\n\\u2560\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502\\u2514\\u00a4\\u2518\\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2563\\n\\u2551\\u2502  \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502   \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502  \\u2502\\u2551\\n\\u2560\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2563\\n\\u2560\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2563\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551    ,          \\u2560\\u2563     ,        ,'      *    \\u2560\\u2563               \\u2551\\n\\u2551~~~~~^~~~~~~~~\\u250c\\u256c\\u256c\\u2510~~~^~~~~~~~~^^~~~~~~~~^~~\\u250c\\u256c\\u256c\\u2510~~~~~~~^~~~~~~\\u2551\\n\\u255a\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u255d\\n     - one protocol, one bridge = infinite possibilities -\\n\\n\\n ***************************************************************\\n\\n DISCLAIMER: U.S Patent Pending\\n\\n LICENSE: Holograph Limited Public License (H-LPL)\\n\\n https://holograph.xyz/licenses/h-lpl/1.0.0\\n\\n This license governs use of the accompanying software. If you\\n use the software, you accept this license. If you do not accept\\n the license, you are not permitted to use the software.\\n\\n 1. Definitions\\n\\n The terms \\\"reproduce,\\\" \\\"reproduction,\\\" \\\"derivative works,\\\" and\\n \\\"distribution\\\" have the same meaning here as under U.S.\\n copyright law. A \\\"contribution\\\" is the original software, or\\n any additions or changes to the software. A \\\"contributor\\\" is\\n any person that distributes its contribution under this\\n license. \\\"Licensed patents\\\" are a contributor\\u2019s patent claims\\n that read directly on its contribution.\\n\\n 2. Grant of Rights\\n\\n A) Copyright Grant- Subject to the terms of this license,\\n including the license conditions and limitations in sections 3\\n and 4, each contributor grants you a non-exclusive, worldwide,\\n royalty-free copyright license to reproduce its contribution,\\n prepare derivative works of its contribution, and distribute\\n its contribution or any derivative works that you create.\\n B) Patent Grant- Subject to the terms of this license,\\n including the license conditions and limitations in section 3,\\n each contributor grants you a non-exclusive, worldwide,\\n royalty-free license under its licensed patents to make, have\\n made, use, sell, offer for sale, import, and/or otherwise\\n dispose of its contribution in the software or derivative works\\n of the contribution in the software.\\n\\n 3. Conditions and Limitations\\n\\n A) No Trademark License- This license does not grant you rights\\n to use any contributors\\u2019 name, logo, or trademarks.\\n B) If you bring a patent claim against any contributor over\\n patents that you claim are infringed by the software, your\\n patent license from such contributor is terminated with\\n immediate effect.\\n C) If you distribute any portion of the software, you must\\n retain all copyright, patent, trademark, and attribution\\n notices that are present in the software.\\n D) If you distribute any portion of the software in source code\\n form, you may do so only under this license by including a\\n complete copy of this license with your distribution. If you\\n distribute any portion of the software in compiled or object\\n code form, you may only do so under a license that complies\\n with this license.\\n E) The software is licensed \\u201cas-is.\\u201d You bear all risks of\\n using it. The contributors give no express warranties,\\n guarantees, or conditions. You may have additional consumer\\n rights under your local laws which this license cannot change.\\n To the extent permitted under your local laws, the contributors\\n exclude all implied warranties, including those of\\n merchantability, fitness for a particular purpose and\\n non-infringement.\\n\\n 4. (F) Platform Limitation- The licenses granted in sections\\n 2.A & 2.B extend only to the software or derivative works that\\n you create that run on a Holograph system product.\\n\\n ***************************************************************\\n\\n*/\\n\\npragma solidity 0.8.13;\\n\\nimport \\\"./abstract/Admin.sol\\\";\\nimport \\\"./abstract/Initializable.sol\\\";\\n\\nimport \\\"./interface/IHolograph.sol\\\";\\nimport \\\"./interface/IInitializable.sol\\\";\\n\\n/**\\n * @dev This smart contract stores the different source codes that have been prepared and can be used for bridging.\\n * @dev We will store here the layer 1 for ERC721 and ERC1155 smart contracts.\\n * @dev This way it can be super easy to upgrade/update the source code once, and have all smart contracts automatically updated.\\n */\\ncontract HolographRegistry is Admin, Initializable {\\n  /**\\n   * @dev A list of smart contracts that are guaranteed secure and holographable.\\n   */\\n  mapping(address => bool) private _holographedContracts;\\n\\n  /**\\n   * @dev A list of hashes and the mapped out contract addresses.\\n   */\\n  mapping(bytes32 => address) private _holographedContractsHashMap;\\n\\n  /**\\n   * @dev Storage slot for saving contract type to contract address references.\\n   */\\n  mapping(bytes32 => address) private _contractTypeAddresses;\\n\\n  /**\\n   * @dev Reserved type addresses for Admin.\\n   *  Note: this is used for defining default contracts.\\n   */\\n  mapping(bytes32 => bool) private _reservedTypes;\\n\\n  /**\\n   * @dev Mapping of all hTokens available for the different EVM chains\\n   */\\n  mapping(uint32 => address) private _hTokens;\\n\\n  /**\\n   * @dev Constructor is left empty and only the admin address is set.\\n   */\\n  constructor() {}\\n\\n  /**\\n   * @dev An array of initially reserved contract types for admin only to set.\\n   */\\n  function init(bytes memory data) external override returns (bytes4) {\\n    require(!_isInitialized(), \\\"HOLOGRAPH: already initialized\\\");\\n    (address holograph, bytes32[] memory reservedTypes) = abi.decode(data, (address, bytes32[]));\\n    assembly {\\n      sstore(0x5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d, origin())\\n\\n      sstore(0x1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d, holograph)\\n    }\\n    for (uint256 i = 0; i < reservedTypes.length; i++) {\\n      _reservedTypes[reservedTypes[i]] = true;\\n    }\\n    _setInitialized();\\n    return IInitializable.init.selector;\\n  }\\n\\n  /**\\n   * @dev Allows to reference a deployed smart contract, and use it's code as reference inside of Holographers.\\n   */\\n  function referenceContractTypeAddress(address contractAddress) external returns (bytes32) {\\n    bytes32 contractType;\\n    assembly {\\n      contractType := extcodehash(contractAddress)\\n    }\\n    require(\\n      (contractType != 0x0 && contractType != 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470),\\n      \\\"HOLOGRAPH: empty contract\\\"\\n    );\\n    require(_contractTypeAddresses[contractType] == address(0), \\\"HOLOGRAPH: contract already set\\\");\\n    require(!_reservedTypes[contractType], \\\"HOLOGRAPH: reserved address type\\\");\\n    _contractTypeAddresses[contractType] = contractAddress;\\n    return contractType;\\n  }\\n\\n  /**\\n   * @dev Allows Holograph Factory to register a deployed contract, referenced with deployment hash.\\n   */\\n  function factoryDeployedHash(bytes32 hash, address contractAddress) external {\\n    address holograph;\\n    assembly {\\n      holograph := sload(0x1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d)\\n    }\\n    require(msg.sender == IHolograph(holograph).getFactory(), \\\"HOLOGRAPH: factory only function\\\");\\n    _holographedContractsHashMap[hash] = contractAddress;\\n    _holographedContracts[contractAddress] = true;\\n  }\\n\\n  /**\\n   * @dev Sets the contract address for a contract type.\\n   */\\n  function setContractTypeAddress(bytes32 contractType, address contractAddress) external onlyAdmin {\\n    // For now we leave overriding as possible. need to think this through.\\n    //require(_contractTypeAddresses[contractType] == address(0), \\\"HOLOGRAPH: contract already set\\\");\\n    require(_reservedTypes[contractType], \\\"HOLOGRAPH: not reserved type\\\");\\n    _contractTypeAddresses[contractType] = contractAddress;\\n  }\\n\\n  /**\\n   * @dev Sets the hToken address for a specific chain id.\\n   */\\n  function setHToken(uint32 chainId, address hToken) external onlyAdmin {\\n    _hTokens[chainId] = hToken;\\n  }\\n\\n  /**\\n   * @dev Allows admin to update or toggle reserved types.\\n   */\\n  function updateReservedContractTypes(bytes32[] calldata hashes, bool[] calldata reserved) external onlyAdmin {\\n    for (uint256 i = 0; i < hashes.length; i++) {\\n      _reservedTypes[hashes[i]] = reserved[i];\\n    }\\n  }\\n\\n  /**\\n   * @dev Returns the contract address for a contract type.\\n   */\\n  function getContractTypeAddress(bytes32 contractType) external view returns (address) {\\n    return _contractTypeAddresses[contractType];\\n  }\\n\\n  /**\\n   * @dev Returns the address for a holographed hash\\n   */\\n  function getHolographedHashAddress(bytes32 hash) external view returns (address) {\\n    return _holographedContractsHashMap[hash];\\n  }\\n\\n  /**\\n   * @dev Returns the hToken address for a given chain id.\\n   */\\n  function getHToken(uint32 chainId) external view returns (address) {\\n    return _hTokens[chainId];\\n  }\\n\\n  function isHolographedContract(address smartContract) external view returns (bool) {\\n    return _holographedContracts[smartContract];\\n  }\\n\\n  function isHolographedHashDeployed(bytes32 hash) external view returns (bool) {\\n    return _holographedContractsHashMap[hash] != address(0);\\n  }\\n\\n  function getHolograph() external view returns (address holograph) {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.Bridge.holograph')) - 1);\\n    assembly {\\n      holograph := sload(0x1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d)\\n    }\\n  }\\n\\n  function setHolograph(address holograph) external onlyAdmin {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.Bridge.holograph')) - 1);\\n    assembly {\\n      sstore(0x1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d, holograph)\\n    }\\n  }\\n}\\n\",\"keccak256\":\"0x842085174b543fe2510f8e73788a1b94d8e8a931d0d26420f65ea9f0f1fa5ec7\",\"license\":\"UNLICENSED\"},\"contracts/abstract/Admin.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\n/*\\n\\n                         \\u250c\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2510\\n                         \\u2502 HOLOGRAPH \\u2502\\n                         \\u2514\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2518\\n\\u2554\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2557\\n\\u2551                                                             \\u2551\\n\\u2551                            / ^ \\\\                            \\u2551\\n\\u2551                            ~~*~~            \\u00b8               \\u2551\\n\\u2551                         [ '<>:<>' ]         \\u2502\\u2591\\u2591\\u2591            \\u2551\\n\\u2551               \\u2554\\u2557           _/\\\"\\\\_           \\u2554\\u2563               \\u2551\\n\\u2551             \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510          \\\"\\\"\\\"          \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510             \\u2551\\n\\u2551          \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510       \\\\_/       \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510          \\u2551\\n\\u2551       \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510           \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510       \\u2551\\n\\u2551    \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510     \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510    \\u2551\\n\\u2551 \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2510 \\u250c\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510 \\u2551\\n\\u2560\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502\\u2514\\u00a4\\u2518\\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2563\\n\\u2551\\u2502  \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502   \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502  \\u2502\\u2551\\n\\u2560\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2563\\n\\u2560\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2563\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551    ,          \\u2560\\u2563     ,        ,'      *    \\u2560\\u2563               \\u2551\\n\\u2551~~~~~^~~~~~~~~\\u250c\\u256c\\u256c\\u2510~~~^~~~~~~~~^^~~~~~~~~^~~\\u250c\\u256c\\u256c\\u2510~~~~~~~^~~~~~~\\u2551\\n\\u255a\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u255d\\n     - one protocol, one bridge = infinite possibilities -\\n\\n\\n ***************************************************************\\n\\n DISCLAIMER: U.S Patent Pending\\n\\n LICENSE: Holograph Limited Public License (H-LPL)\\n\\n https://holograph.xyz/licenses/h-lpl/1.0.0\\n\\n This license governs use of the accompanying software. If you\\n use the software, you accept this license. If you do not accept\\n the license, you are not permitted to use the software.\\n\\n 1. Definitions\\n\\n The terms \\\"reproduce,\\\" \\\"reproduction,\\\" \\\"derivative works,\\\" and\\n \\\"distribution\\\" have the same meaning here as under U.S.\\n copyright law. A \\\"contribution\\\" is the original software, or\\n any additions or changes to the software. A \\\"contributor\\\" is\\n any person that distributes its contribution under this\\n license. \\\"Licensed patents\\\" are a contributor\\u2019s patent claims\\n that read directly on its contribution.\\n\\n 2. Grant of Rights\\n\\n A) Copyright Grant- Subject to the terms of this license,\\n including the license conditions and limitations in sections 3\\n and 4, each contributor grants you a non-exclusive, worldwide,\\n royalty-free copyright license to reproduce its contribution,\\n prepare derivative works of its contribution, and distribute\\n its contribution or any derivative works that you create.\\n B) Patent Grant- Subject to the terms of this license,\\n including the license conditions and limitations in section 3,\\n each contributor grants you a non-exclusive, worldwide,\\n royalty-free license under its licensed patents to make, have\\n made, use, sell, offer for sale, import, and/or otherwise\\n dispose of its contribution in the software or derivative works\\n of the contribution in the software.\\n\\n 3. Conditions and Limitations\\n\\n A) No Trademark License- This license does not grant you rights\\n to use any contributors\\u2019 name, logo, or trademarks.\\n B) If you bring a patent claim against any contributor over\\n patents that you claim are infringed by the software, your\\n patent license from such contributor is terminated with\\n immediate effect.\\n C) If you distribute any portion of the software, you must\\n retain all copyright, patent, trademark, and attribution\\n notices that are present in the software.\\n D) If you distribute any portion of the software in source code\\n form, you may do so only under this license by including a\\n complete copy of this license with your distribution. If you\\n distribute any portion of the software in compiled or object\\n code form, you may only do so under a license that complies\\n with this license.\\n E) The software is licensed \\u201cas-is.\\u201d You bear all risks of\\n using it. The contributors give no express warranties,\\n guarantees, or conditions. You may have additional consumer\\n rights under your local laws which this license cannot change.\\n To the extent permitted under your local laws, the contributors\\n exclude all implied warranties, including those of\\n merchantability, fitness for a particular purpose and\\n non-infringement.\\n\\n 4. (F) Platform Limitation- The licenses granted in sections\\n 2.A & 2.B extend only to the software or derivative works that\\n you create that run on a Holograph system product.\\n\\n ***************************************************************\\n\\n*/\\n\\npragma solidity 0.8.13;\\n\\nabstract contract Admin {\\n  constructor() {}\\n\\n  modifier onlyAdmin() {\\n    require(msg.sender == getAdmin(), \\\"HOLOGRAPH: admin only function\\\");\\n    _;\\n  }\\n\\n  function admin() public view returns (address) {\\n    return getAdmin();\\n  }\\n\\n  function getAdmin() public view returns (address adminAddress) {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.Bridge.admin')) - 1);\\n    assembly {\\n      adminAddress := sload(\\n        /* slot */\\n        0x5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d\\n      )\\n    }\\n  }\\n\\n  function setAdmin(address adminAddress) public onlyAdmin {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.Bridge.admin')) - 1);\\n    assembly {\\n      sstore(\\n        /* slot */\\n        0x5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d,\\n        adminAddress\\n      )\\n    }\\n  }\\n\\n  function adminCall(address target, bytes calldata data) external payable onlyAdmin {\\n    assembly {\\n      calldatacopy(0, data.offset, data.length)\\n      let result := call(gas(), target, callvalue(), 0, data.length, 0, 0)\\n      returndatacopy(0, 0, returndatasize())\\n      switch result\\n      case 0 {\\n        revert(0, returndatasize())\\n      }\\n      default {\\n        return(0, returndatasize())\\n      }\\n    }\\n  }\\n}\\n\",\"keccak256\":\"0x9e72f1a43f1c9d041a175e90e58c41e29302824146e27b20f652d6e66103f66e\",\"license\":\"UNLICENSED\"},\"contracts/abstract/Initializable.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\n/*\\n\\n                         \\u250c\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2510\\n                         \\u2502 HOLOGRAPH \\u2502\\n                         \\u2514\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2518\\n\\u2554\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2557\\n\\u2551                                                             \\u2551\\n\\u2551                            / ^ \\\\                            \\u2551\\n\\u2551                            ~~*~~            \\u00b8               \\u2551\\n\\u2551                         [ '<>:<>' ]         \\u2502\\u2591\\u2591\\u2591            \\u2551\\n\\u2551               \\u2554\\u2557           _/\\\"\\\\_           \\u2554\\u2563               \\u2551\\n\\u2551             \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510          \\\"\\\"\\\"          \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510             \\u2551\\n\\u2551          \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510       \\\\_/       \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510          \\u2551\\n\\u2551       \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510           \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510       \\u2551\\n\\u2551    \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510     \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510    \\u2551\\n\\u2551 \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2510 \\u250c\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510 \\u2551\\n\\u2560\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502\\u2514\\u00a4\\u2518\\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2563\\n\\u2551\\u2502  \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502   \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502  \\u2502\\u2551\\n\\u2560\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2563\\n\\u2560\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2563\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551    ,          \\u2560\\u2563     ,        ,'      *    \\u2560\\u2563               \\u2551\\n\\u2551~~~~~^~~~~~~~~\\u250c\\u256c\\u256c\\u2510~~~^~~~~~~~~^^~~~~~~~~^~~\\u250c\\u256c\\u256c\\u2510~~~~~~~^~~~~~~\\u2551\\n\\u255a\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u255d\\n     - one protocol, one bridge = infinite possibilities -\\n\\n\\n ***************************************************************\\n\\n DISCLAIMER: U.S Patent Pending\\n\\n LICENSE: Holograph Limited Public License (H-LPL)\\n\\n https://holograph.xyz/licenses/h-lpl/1.0.0\\n\\n This license governs use of the accompanying software. If you\\n use the software, you accept this license. If you do not accept\\n the license, you are not permitted to use the software.\\n\\n 1. Definitions\\n\\n The terms \\\"reproduce,\\\" \\\"reproduction,\\\" \\\"derivative works,\\\" and\\n \\\"distribution\\\" have the same meaning here as under U.S.\\n copyright law. A \\\"contribution\\\" is the original software, or\\n any additions or changes to the software. A \\\"contributor\\\" is\\n any person that distributes its contribution under this\\n license. \\\"Licensed patents\\\" are a contributor\\u2019s patent claims\\n that read directly on its contribution.\\n\\n 2. Grant of Rights\\n\\n A) Copyright Grant- Subject to the terms of this license,\\n including the license conditions and limitations in sections 3\\n and 4, each contributor grants you a non-exclusive, worldwide,\\n royalty-free copyright license to reproduce its contribution,\\n prepare derivative works of its contribution, and distribute\\n its contribution or any derivative works that you create.\\n B) Patent Grant- Subject to the terms of this license,\\n including the license conditions and limitations in section 3,\\n each contributor grants you a non-exclusive, worldwide,\\n royalty-free license under its licensed patents to make, have\\n made, use, sell, offer for sale, import, and/or otherwise\\n dispose of its contribution in the software or derivative works\\n of the contribution in the software.\\n\\n 3. Conditions and Limitations\\n\\n A) No Trademark License- This license does not grant you rights\\n to use any contributors\\u2019 name, logo, or trademarks.\\n B) If you bring a patent claim against any contributor over\\n patents that you claim are infringed by the software, your\\n patent license from such contributor is terminated with\\n immediate effect.\\n C) If you distribute any portion of the software, you must\\n retain all copyright, patent, trademark, and attribution\\n notices that are present in the software.\\n D) If you distribute any portion of the software in source code\\n form, you may do so only under this license by including a\\n complete copy of this license with your distribution. If you\\n distribute any portion of the software in compiled or object\\n code form, you may only do so under a license that complies\\n with this license.\\n E) The software is licensed \\u201cas-is.\\u201d You bear all risks of\\n using it. The contributors give no express warranties,\\n guarantees, or conditions. You may have additional consumer\\n rights under your local laws which this license cannot change.\\n To the extent permitted under your local laws, the contributors\\n exclude all implied warranties, including those of\\n merchantability, fitness for a particular purpose and\\n non-infringement.\\n\\n 4. (F) Platform Limitation- The licenses granted in sections\\n 2.A & 2.B extend only to the software or derivative works that\\n you create that run on a Holograph system product.\\n\\n ***************************************************************\\n\\n*/\\n\\npragma solidity 0.8.13;\\n\\nimport \\\"../interface/IInitializable.sol\\\";\\n\\nabstract contract Initializable is IInitializable {\\n  function init(bytes memory _data) external virtual returns (bytes4);\\n\\n  function _isInitialized() internal view returns (bool) {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.initialized')) - 1);\\n    uint256 initialized;\\n    assembly {\\n      initialized := sload(0x4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a01)\\n    }\\n    return (initialized > 0);\\n  }\\n\\n  function _setInitialized() internal {\\n    // The slot hash has been precomputed for gas optimizaion\\n    // bytes32 slot = bytes32(uint256(keccak256('eip1967.Holograph.initialized')) - 1);\\n    uint256 initialized = 1;\\n    assembly {\\n      sstore(\\n        /* slot */\\n        0x4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a01,\\n        initialized\\n      )\\n    }\\n  }\\n}\\n\",\"keccak256\":\"0x215db355c7ef399dc9c445f517ff71dfee914e66a6bdef8a8bbb6daf6607f78a\",\"license\":\"UNLICENSED\"},\"contracts/interface/IHolograph.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\n/*\\n\\n                         \\u250c\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2510\\n                         \\u2502 HOLOGRAPH \\u2502\\n                         \\u2514\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2518\\n\\u2554\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2557\\n\\u2551                                                             \\u2551\\n\\u2551                            / ^ \\\\                            \\u2551\\n\\u2551                            ~~*~~            \\u00b8               \\u2551\\n\\u2551                         [ '<>:<>' ]         \\u2502\\u2591\\u2591\\u2591            \\u2551\\n\\u2551               \\u2554\\u2557           _/\\\"\\\\_           \\u2554\\u2563               \\u2551\\n\\u2551             \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510          \\\"\\\"\\\"          \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510             \\u2551\\n\\u2551          \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510       \\\\_/       \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510          \\u2551\\n\\u2551       \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510           \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510       \\u2551\\n\\u2551    \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510     \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510    \\u2551\\n\\u2551 \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2510 \\u250c\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510 \\u2551\\n\\u2560\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502\\u2514\\u00a4\\u2518\\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2563\\n\\u2551\\u2502  \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502   \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502  \\u2502\\u2551\\n\\u2560\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2563\\n\\u2560\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2563\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551    ,          \\u2560\\u2563     ,        ,'      *    \\u2560\\u2563               \\u2551\\n\\u2551~~~~~^~~~~~~~~\\u250c\\u256c\\u256c\\u2510~~~^~~~~~~~~^^~~~~~~~~^~~\\u250c\\u256c\\u256c\\u2510~~~~~~~^~~~~~~\\u2551\\n\\u255a\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u255d\\n     - one protocol, one bridge = infinite possibilities -\\n\\n\\n ***************************************************************\\n\\n DISCLAIMER: U.S Patent Pending\\n\\n LICENSE: Holograph Limited Public License (H-LPL)\\n\\n https://holograph.xyz/licenses/h-lpl/1.0.0\\n\\n This license governs use of the accompanying software. If you\\n use the software, you accept this license. If you do not accept\\n the license, you are not permitted to use the software.\\n\\n 1. Definitions\\n\\n The terms \\\"reproduce,\\\" \\\"reproduction,\\\" \\\"derivative works,\\\" and\\n \\\"distribution\\\" have the same meaning here as under U.S.\\n copyright law. A \\\"contribution\\\" is the original software, or\\n any additions or changes to the software. A \\\"contributor\\\" is\\n any person that distributes its contribution under this\\n license. \\\"Licensed patents\\\" are a contributor\\u2019s patent claims\\n that read directly on its contribution.\\n\\n 2. Grant of Rights\\n\\n A) Copyright Grant- Subject to the terms of this license,\\n including the license conditions and limitations in sections 3\\n and 4, each contributor grants you a non-exclusive, worldwide,\\n royalty-free copyright license to reproduce its contribution,\\n prepare derivative works of its contribution, and distribute\\n its contribution or any derivative works that you create.\\n B) Patent Grant- Subject to the terms of this license,\\n including the license conditions and limitations in section 3,\\n each contributor grants you a non-exclusive, worldwide,\\n royalty-free license under its licensed patents to make, have\\n made, use, sell, offer for sale, import, and/or otherwise\\n dispose of its contribution in the software or derivative works\\n of the contribution in the software.\\n\\n 3. Conditions and Limitations\\n\\n A) No Trademark License- This license does not grant you rights\\n to use any contributors\\u2019 name, logo, or trademarks.\\n B) If you bring a patent claim against any contributor over\\n patents that you claim are infringed by the software, your\\n patent license from such contributor is terminated with\\n immediate effect.\\n C) If you distribute any portion of the software, you must\\n retain all copyright, patent, trademark, and attribution\\n notices that are present in the software.\\n D) If you distribute any portion of the software in source code\\n form, you may do so only under this license by including a\\n complete copy of this license with your distribution. If you\\n distribute any portion of the software in compiled or object\\n code form, you may only do so under a license that complies\\n with this license.\\n E) The software is licensed \\u201cas-is.\\u201d You bear all risks of\\n using it. The contributors give no express warranties,\\n guarantees, or conditions. You may have additional consumer\\n rights under your local laws which this license cannot change.\\n To the extent permitted under your local laws, the contributors\\n exclude all implied warranties, including those of\\n merchantability, fitness for a particular purpose and\\n non-infringement.\\n\\n 4. (F) Platform Limitation- The licenses granted in sections\\n 2.A & 2.B extend only to the software or derivative works that\\n you create that run on a Holograph system product.\\n\\n ***************************************************************\\n\\n*/\\n\\npragma solidity 0.8.13;\\n\\ninterface IHolograph {\\n  function getChainType() external view returns (uint32 chainType);\\n\\n  function getBridge() external view returns (address bridgeAddress);\\n\\n  function getFactory() external view returns (address factoryAddress);\\n\\n  function getInterfaces() external view returns (address interfacesAddress);\\n\\n  function getOperator() external view returns (address operatorAddress);\\n\\n  function getRegistry() external view returns (address registryAddress);\\n}\\n\",\"keccak256\":\"0xd64850491c0bb8f10d50159bcce238713a170a8965dd6e1adda1fba783dc36aa\",\"license\":\"UNLICENSED\"},\"contracts/interface/IInitializable.sol\":{\"content\":\"// SPDX-License-Identifier: UNLICENSED\\n/*\\n\\n                         \\u250c\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2510\\n                         \\u2502 HOLOGRAPH \\u2502\\n                         \\u2514\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2500\\u2518\\n\\u2554\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2557\\n\\u2551                                                             \\u2551\\n\\u2551                            / ^ \\\\                            \\u2551\\n\\u2551                            ~~*~~            \\u00b8               \\u2551\\n\\u2551                         [ '<>:<>' ]         \\u2502\\u2591\\u2591\\u2591            \\u2551\\n\\u2551               \\u2554\\u2557           _/\\\"\\\\_           \\u2554\\u2563               \\u2551\\n\\u2551             \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510          \\\"\\\"\\\"          \\u250c\\u2500\\u256c\\u256c\\u2500\\u2510             \\u2551\\n\\u2551          \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510       \\\\_/       \\u250c\\u2500\\u252c\\u2518 \\u2560\\u2563 \\u2514\\u252c\\u2500\\u2510          \\u2551\\n\\u2551       \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510           \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2560\\u2563  \\u2502 \\u2514\\u252c\\u2500\\u2510       \\u2551\\n\\u2551    \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510     \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510    \\u2551\\n\\u2551 \\u250c\\u2500\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2510 \\u250c\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2500\\u2510 \\u2551\\n\\u2560\\u252c\\u2518 \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502\\u2514\\u00a4\\u2518\\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502 \\u2514\\u252c\\u2563\\n\\u2551\\u2502  \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502   \\u2502  \\u2502  \\u2502  \\u2502  \\u2560\\u2563  \\u2502  \\u2502  \\u2502  \\u2502  \\u2502\\u2551\\n\\u2560\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u256c\\u256c\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2550\\u2550\\u2569\\u2563\\n\\u2560\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u256c\\u256c\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2534\\u2563\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551               \\u2560\\u2563                           \\u2560\\u2563               \\u2551\\n\\u2551    ,          \\u2560\\u2563     ,        ,'      *    \\u2560\\u2563               \\u2551\\n\\u2551~~~~~^~~~~~~~~\\u250c\\u256c\\u256c\\u2510~~~^~~~~~~~~^^~~~~~~~~^~~\\u250c\\u256c\\u256c\\u2510~~~~~~~^~~~~~~\\u2551\\n\\u255a\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2569\\u2569\\u2569\\u2569\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u2550\\u255d\\n     - one protocol, one bridge = infinite possibilities -\\n\\n\\n ***************************************************************\\n\\n DISCLAIMER: U.S Patent Pending\\n\\n LICENSE: Holograph Limited Public License (H-LPL)\\n\\n https://holograph.xyz/licenses/h-lpl/1.0.0\\n\\n This license governs use of the accompanying software. If you\\n use the software, you accept this license. If you do not accept\\n the license, you are not permitted to use the software.\\n\\n 1. Definitions\\n\\n The terms \\\"reproduce,\\\" \\\"reproduction,\\\" \\\"derivative works,\\\" and\\n \\\"distribution\\\" have the same meaning here as under U.S.\\n copyright law. A \\\"contribution\\\" is the original software, or\\n any additions or changes to the software. A \\\"contributor\\\" is\\n any person that distributes its contribution under this\\n license. \\\"Licensed patents\\\" are a contributor\\u2019s patent claims\\n that read directly on its contribution.\\n\\n 2. Grant of Rights\\n\\n A) Copyright Grant- Subject to the terms of this license,\\n including the license conditions and limitations in sections 3\\n and 4, each contributor grants you a non-exclusive, worldwide,\\n royalty-free copyright license to reproduce its contribution,\\n prepare derivative works of its contribution, and distribute\\n its contribution or any derivative works that you create.\\n B) Patent Grant- Subject to the terms of this license,\\n including the license conditions and limitations in section 3,\\n each contributor grants you a non-exclusive, worldwide,\\n royalty-free license under its licensed patents to make, have\\n made, use, sell, offer for sale, import, and/or otherwise\\n dispose of its contribution in the software or derivative works\\n of the contribution in the software.\\n\\n 3. Conditions and Limitations\\n\\n A) No Trademark License- This license does not grant you rights\\n to use any contributors\\u2019 name, logo, or trademarks.\\n B) If you bring a patent claim against any contributor over\\n patents that you claim are infringed by the software, your\\n patent license from such contributor is terminated with\\n immediate effect.\\n C) If you distribute any portion of the software, you must\\n retain all copyright, patent, trademark, and attribution\\n notices that are present in the software.\\n D) If you distribute any portion of the software in source code\\n form, you may do so only under this license by including a\\n complete copy of this license with your distribution. If you\\n distribute any portion of the software in compiled or object\\n code form, you may only do so under a license that complies\\n with this license.\\n E) The software is licensed \\u201cas-is.\\u201d You bear all risks of\\n using it. The contributors give no express warranties,\\n guarantees, or conditions. You may have additional consumer\\n rights under your local laws which this license cannot change.\\n To the extent permitted under your local laws, the contributors\\n exclude all implied warranties, including those of\\n merchantability, fitness for a particular purpose and\\n non-infringement.\\n\\n 4. (F) Platform Limitation- The licenses granted in sections\\n 2.A & 2.B extend only to the software or derivative works that\\n you create that run on a Holograph system product.\\n\\n ***************************************************************\\n\\n*/\\n\\npragma solidity 0.8.13;\\n\\ninterface IInitializable {\\n  function init(bytes memory _data) external returns (bytes4);\\n}\\n\",\"keccak256\":\"0xf91369b0eb61d789a13e283a021d2484f7a8fbb247d5bd46fe6f5acc529e5f9d\",\"license\":\"UNLICENSED\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50611553806100206000396000f3fe60806040526004361061010e5760003560e01c8063704b6c02116100a5578063cc2913f911610074578063d9aa2a7c11610059578063d9aa2a7c1461041f578063ede4a5191461043f578063f851a4401461045f57600080fd5b8063cc2913f914610399578063d1636782146103dc57600080fd5b8063704b6c02146102ef578063768797c31461030f578063949d53a71461033d578063bf64a82d1461038657600080fd5b80634827ae0c116100e15780634827ae0c146101f55780634ddf47d41461024a57806356116d541461029b5780636e9960c3146102bb57600080fd5b806324299c6e1461011357806325d5cac81461016d57806335ee77cf1461018f57806344b25fff146101af575b600080fd5b34801561011f57600080fd5b5061015861012e36600461105c565b60009081526001602052604090205473ffffffffffffffffffffffffffffffffffffffff16151590565b60405190151581526020015b60405180910390f35b34801561017957600080fd5b5061018d61018836600461109a565b610474565b005b34801561019b57600080fd5b5061018d6101aa3660046110d7565b610553565b3480156101bb57600080fd5b506101586101ca36600461109a565b73ffffffffffffffffffffffffffffffffffffffff1660009081526020819052604090205460ff1690565b34801561020157600080fd5b507f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d545b60405173ffffffffffffffffffffffffffffffffffffffff9091168152602001610164565b34801561025657600080fd5b5061026a61026536600461118c565b610664565b6040517fffffffff000000000000000000000000000000000000000000000000000000009091168152602001610164565b3480156102a757600080fd5b5061018d6102b636600461123f565b61080f565b3480156102c757600080fd5b507f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d54610225565b3480156102fb57600080fd5b5061018d61030a36600461109a565b610990565b34801561031b57600080fd5b5061032f61032a36600461109a565b610a6a565b604051908152602001610164565b34801561034957600080fd5b50610225610358366004611264565b63ffffffff1660009081526004602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b61018d61039436600461127f565b610c5e565b3480156103a557600080fd5b506102256103b436600461105c565b60009081526002602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b3480156103e857600080fd5b506102256103f736600461105c565b60009081526001602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b34801561042b57600080fd5b5061018d61043a36600461123f565b610d40565b34801561044b57600080fd5b5061018d61045a366004611350565b610ef0565b34801561046b57600080fd5b5061022561102d565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461052f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e000060448201526064015b60405180910390fd5b7f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d55565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610609576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b63ffffffff91909116600090815260046020526040902080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff909216919091179055565b60006106907f4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a0154151590565b156106f7576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a20616c726561647920696e697469616c697a656400006044820152606401610526565b6000808380602001905181019061070e91906113bc565b91509150327f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d55817f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d5560005b81518110156107bc5760016003600084848151811061077c5761077c611479565b6020026020010151815260200190815260200160002060006101000a81548160ff02191690831515021790555080806107b4906114a8565b91505061075b565b506107e660017f4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a0155565b507f4ddf47d4000000000000000000000000000000000000000000000000000000009392505050565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146108c5576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b60008281526003602052604090205460ff1661093d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601c60248201527f484f4c4f47524150483a206e6f742072657365727665642074797065000000006044820152606401610526565b60009182526002602052604090912080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff909216919091179055565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610a46576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d55565b6000813f8015801590610a9d57507fc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a4708114155b610b03576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601960248201527f484f4c4f47524150483a20656d70747920636f6e7472616374000000000000006044820152606401610526565b60008181526002602052604090205473ffffffffffffffffffffffffffffffffffffffff1615610b8f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f484f4c4f47524150483a20636f6e747261637420616c726561647920736574006044820152606401610526565b60008181526003602052604090205460ff1615610c08576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f484f4c4f47524150483a207265736572766564206164647265737320747970656044820152606401610526565b600081815260026020526040902080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff94909416939093179092555090565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610d14576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b808260003760008082600034875af13d6000803e808015610d34573d6000f35b3d6000fd5b5050505050565b60007f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d5490508073ffffffffffffffffffffffffffffffffffffffff166388cc58e46040518163ffffffff1660e01b8152600401602060405180830381865afa158015610db1573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610dd59190611507565b73ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610e69576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f484f4c4f47524150483a20666163746f7279206f6e6c792066756e6374696f6e6044820152606401610526565b506000918252600160208181526040808520805473ffffffffffffffffffffffffffffffffffffffff9095167fffffffffffffffffffffffff000000000000000000000000000000000000000090951685179055928452839052912080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00169091179055565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610fa6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b60005b83811015610d3957828282818110610fc357610fc3611479565b9050602002016020810190610fd89190611524565b60036000878785818110610fee57610fee611479565b90506020020135815260200190815260200160002060006101000a81548160ff0219169083151502179055508080611025906114a8565b915050610fa9565b60006110577f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5490565b905090565b60006020828403121561106e57600080fd5b5035919050565b73ffffffffffffffffffffffffffffffffffffffff8116811461109757600080fd5b50565b6000602082840312156110ac57600080fd5b81356110b781611075565b9392505050565b803563ffffffff811681146110d257600080fd5b919050565b600080604083850312156110ea57600080fd5b6110f3836110be565b9150602083013561110381611075565b809150509250929050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b604051601f82017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe016810167ffffffffffffffff811182821017156111845761118461110e565b604052919050565b6000602080838503121561119f57600080fd5b823567ffffffffffffffff808211156111b757600080fd5b818501915085601f8301126111cb57600080fd5b8135818111156111dd576111dd61110e565b61120d847fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f8401160161113d565b9150808252868482850101111561122357600080fd5b8084840185840137600090820190930192909252509392505050565b6000806040838503121561125257600080fd5b82359150602083013561110381611075565b60006020828403121561127657600080fd5b6110b7826110be565b60008060006040848603121561129457600080fd5b833561129f81611075565b9250602084013567ffffffffffffffff808211156112bc57600080fd5b818601915086601f8301126112d057600080fd5b8135818111156112df57600080fd5b8760208285010111156112f157600080fd5b6020830194508093505050509250925092565b60008083601f84011261131657600080fd5b50813567ffffffffffffffff81111561132e57600080fd5b6020830191508360208260051b850101111561134957600080fd5b9250929050565b6000806000806040858703121561136657600080fd5b843567ffffffffffffffff8082111561137e57600080fd5b61138a88838901611304565b909650945060208701359150808211156113a357600080fd5b506113b087828801611304565b95989497509550505050565b600080604083850312156113cf57600080fd5b82516113da81611075565b8092505060208084015167ffffffffffffffff808211156113fa57600080fd5b818601915086601f83011261140e57600080fd5b8151818111156114205761142061110e565b8060051b915061143184830161113d565b818152918301840191848101908984111561144b57600080fd5b938501935b8385101561146957845182529385019390850190611450565b8096505050505050509250929050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203611500577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b5060010190565b60006020828403121561151957600080fd5b81516110b781611075565b60006020828403121561153657600080fd5b813580151581146110b757600080fdfea164736f6c634300080d000a",
+  "deployedBytecode": "0x60806040526004361061010e5760003560e01c8063704b6c02116100a5578063cc2913f911610074578063d9aa2a7c11610059578063d9aa2a7c1461041f578063ede4a5191461043f578063f851a4401461045f57600080fd5b8063cc2913f914610399578063d1636782146103dc57600080fd5b8063704b6c02146102ef578063768797c31461030f578063949d53a71461033d578063bf64a82d1461038657600080fd5b80634827ae0c116100e15780634827ae0c146101f55780634ddf47d41461024a57806356116d541461029b5780636e9960c3146102bb57600080fd5b806324299c6e1461011357806325d5cac81461016d57806335ee77cf1461018f57806344b25fff146101af575b600080fd5b34801561011f57600080fd5b5061015861012e36600461105c565b60009081526001602052604090205473ffffffffffffffffffffffffffffffffffffffff16151590565b60405190151581526020015b60405180910390f35b34801561017957600080fd5b5061018d61018836600461109a565b610474565b005b34801561019b57600080fd5b5061018d6101aa3660046110d7565b610553565b3480156101bb57600080fd5b506101586101ca36600461109a565b73ffffffffffffffffffffffffffffffffffffffff1660009081526020819052604090205460ff1690565b34801561020157600080fd5b507f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d545b60405173ffffffffffffffffffffffffffffffffffffffff9091168152602001610164565b34801561025657600080fd5b5061026a61026536600461118c565b610664565b6040517fffffffff000000000000000000000000000000000000000000000000000000009091168152602001610164565b3480156102a757600080fd5b5061018d6102b636600461123f565b61080f565b3480156102c757600080fd5b507f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d54610225565b3480156102fb57600080fd5b5061018d61030a36600461109a565b610990565b34801561031b57600080fd5b5061032f61032a36600461109a565b610a6a565b604051908152602001610164565b34801561034957600080fd5b50610225610358366004611264565b63ffffffff1660009081526004602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b61018d61039436600461127f565b610c5e565b3480156103a557600080fd5b506102256103b436600461105c565b60009081526002602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b3480156103e857600080fd5b506102256103f736600461105c565b60009081526001602052604090205473ffffffffffffffffffffffffffffffffffffffff1690565b34801561042b57600080fd5b5061018d61043a36600461123f565b610d40565b34801561044b57600080fd5b5061018d61045a366004611350565b610ef0565b34801561046b57600080fd5b5061022561102d565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461052f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e000060448201526064015b60405180910390fd5b7f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d55565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610609576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b63ffffffff91909116600090815260046020526040902080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff909216919091179055565b60006106907f4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a0154151590565b156106f7576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a20616c726561647920696e697469616c697a656400006044820152606401610526565b6000808380602001905181019061070e91906113bc565b91509150327f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d55817f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d5560005b81518110156107bc5760016003600084848151811061077c5761077c611479565b6020026020010151815260200190815260200160002060006101000a81548160ff02191690831515021790555080806107b4906114a8565b91505061075b565b506107e660017f4e5f991bca30eca2d4643aaefa807e88f96a4a97398933d572a3c0d973004a0155565b507f4ddf47d4000000000000000000000000000000000000000000000000000000009392505050565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146108c5576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b60008281526003602052604090205460ff1661093d576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601c60248201527f484f4c4f47524150483a206e6f742072657365727665642074797065000000006044820152606401610526565b60009182526002602052604090912080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff909216919091179055565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610a46576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d55565b6000813f8015801590610a9d57507fc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a4708114155b610b03576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601960248201527f484f4c4f47524150483a20656d70747920636f6e7472616374000000000000006044820152606401610526565b60008181526002602052604090205473ffffffffffffffffffffffffffffffffffffffff1615610b8f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601f60248201527f484f4c4f47524150483a20636f6e747261637420616c726561647920736574006044820152606401610526565b60008181526003602052604090205460ff1615610c08576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f484f4c4f47524150483a207265736572766564206164647265737320747970656044820152606401610526565b600081815260026020526040902080547fffffffffffffffffffffffff00000000000000000000000000000000000000001673ffffffffffffffffffffffffffffffffffffffff94909416939093179092555090565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610d14576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b808260003760008082600034875af13d6000803e808015610d34573d6000f35b3d6000fd5b5050505050565b60007f1eee493315beeac80829afd0aaa340f3821cabe68571a2743478e81638a3d94d5490508073ffffffffffffffffffffffffffffffffffffffff166388cc58e46040518163ffffffff1660e01b8152600401602060405180830381865afa158015610db1573d6000803e3d6000fd5b505050506040513d601f19601f82011682018060405250810190610dd59190611507565b73ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610e69576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820181905260248201527f484f4c4f47524150483a20666163746f7279206f6e6c792066756e6374696f6e6044820152606401610526565b506000918252600160208181526040808520805473ffffffffffffffffffffffffffffffffffffffff9095167fffffffffffffffffffffffff000000000000000000000000000000000000000090951685179055928452839052912080547fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00169091179055565b7f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5473ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610fa6576040517f08c379a000000000000000000000000000000000000000000000000000000000815260206004820152601e60248201527f484f4c4f47524150483a2061646d696e206f6e6c792066756e6374696f6e00006044820152606401610526565b60005b83811015610d3957828282818110610fc357610fc3611479565b9050602002016020810190610fd89190611524565b60036000878785818110610fee57610fee611479565b90506020020135815260200190815260200160002060006101000a81548160ff0219169083151502179055508080611025906114a8565b915050610fa9565b60006110577f5705f5753aa4f617eef2cae1dada3d3355e9387b04d19191f09b545e684ca50d5490565b905090565b60006020828403121561106e57600080fd5b5035919050565b73ffffffffffffffffffffffffffffffffffffffff8116811461109757600080fd5b50565b6000602082840312156110ac57600080fd5b81356110b781611075565b9392505050565b803563ffffffff811681146110d257600080fd5b919050565b600080604083850312156110ea57600080fd5b6110f3836110be565b9150602083013561110381611075565b809150509250929050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b604051601f82017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe016810167ffffffffffffffff811182821017156111845761118461110e565b604052919050565b6000602080838503121561119f57600080fd5b823567ffffffffffffffff808211156111b757600080fd5b818501915085601f8301126111cb57600080fd5b8135818111156111dd576111dd61110e565b61120d847fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0601f8401160161113d565b9150808252868482850101111561122357600080fd5b8084840185840137600090820190930192909252509392505050565b6000806040838503121561125257600080fd5b82359150602083013561110381611075565b60006020828403121561127657600080fd5b6110b7826110be565b60008060006040848603121561129457600080fd5b833561129f81611075565b9250602084013567ffffffffffffffff808211156112bc57600080fd5b818601915086601f8301126112d057600080fd5b8135818111156112df57600080fd5b8760208285010111156112f157600080fd5b6020830194508093505050509250925092565b60008083601f84011261131657600080fd5b50813567ffffffffffffffff81111561132e57600080fd5b6020830191508360208260051b850101111561134957600080fd5b9250929050565b6000806000806040858703121561136657600080fd5b843567ffffffffffffffff8082111561137e57600080fd5b61138a88838901611304565b909650945060208701359150808211156113a357600080fd5b506113b087828801611304565b95989497509550505050565b600080604083850312156113cf57600080fd5b82516113da81611075565b8092505060208084015167ffffffffffffffff808211156113fa57600080fd5b818601915086601f83011261140e57600080fd5b8151818111156114205761142061110e565b8060051b915061143184830161113d565b818152918301840191848101908984111561144b57600080fd5b938501935b8385101561146957845182529385019390850190611450565b8096505050505050509250929050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203611500577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b5060010190565b60006020828403121561151957600080fd5b81516110b781611075565b60006020828403121561153657600080fd5b813580151581146110b757600080fdfea164736f6c634300080d000a",
+  "devdoc": {
+    "details": "This smart contract stores the different source codes that have been prepared and can be used for bridging.We will store here the layer 1 for ERC721 and ERC1155 smart contracts.This way it can be super easy to upgrade/update the source code once, and have all smart contracts automatically updated.",
+    "kind": "dev",
+    "methods": {
+      "constructor": {
+        "details": "Constructor is left empty and only the admin address is set."
+      },
+      "factoryDeployedHash(bytes32,address)": {
+        "details": "Allows Holograph Factory to register a deployed contract, referenced with deployment hash."
+      },
+      "getContractTypeAddress(bytes32)": {
+        "details": "Returns the contract address for a contract type."
+      },
+      "getHToken(uint32)": {
+        "details": "Returns the hToken address for a given chain id."
+      },
+      "getHolographedHashAddress(bytes32)": {
+        "details": "Returns the address for a holographed hash"
+      },
+      "init(bytes)": {
+        "details": "An array of initially reserved contract types for admin only to set."
+      },
+      "referenceContractTypeAddress(address)": {
+        "details": "Allows to reference a deployed smart contract, and use it's code as reference inside of Holographers."
+      },
+      "setContractTypeAddress(bytes32,address)": {
+        "details": "Sets the contract address for a contract type."
+      },
+      "setHToken(uint32,address)": {
+        "details": "Sets the hToken address for a specific chain id."
+      },
+      "updateReservedContractTypes(bytes32[],bool[])": {
+        "details": "Allows admin to update or toggle reserved types."
+      }
+    },
+    "stateVariables": {
+      "_contractTypeAddresses": {
+        "details": "Storage slot for saving contract type to contract address references."
+      },
+      "_hTokens": {
+        "details": "Mapping of all hTokens available for the different EVM chains"
+      },
+      "_holographedContracts": {
+        "details": "A list of smart contracts that are guaranteed secure and holographable."
+      },
+      "_holographedContractsHashMap": {
+        "details": "A list of hashes and the mapped out contract addresses."
+      },
+      "_reservedTypes": {
+        "details": "Reserved type addresses for Admin.  Note: this is used for defining default contracts."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 6038,
+        "contract": "contracts/HolographRegistry.sol:HolographRegistry",
+        "label": "_holographedContracts",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_bool)"
+      },
+      {
+        "astId": 6043,
+        "contract": "contracts/HolographRegistry.sol:HolographRegistry",
+        "label": "_holographedContractsHashMap",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_bytes32,t_address)"
+      },
+      {
+        "astId": 6048,
+        "contract": "contracts/HolographRegistry.sol:HolographRegistry",
+        "label": "_contractTypeAddresses",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_mapping(t_bytes32,t_address)"
+      },
+      {
+        "astId": 6053,
+        "contract": "contracts/HolographRegistry.sol:HolographRegistry",
+        "label": "_reservedTypes",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_mapping(t_bytes32,t_bool)"
+      },
+      {
+        "astId": 6058,
+        "contract": "contracts/HolographRegistry.sol:HolographRegistry",
+        "label": "_hTokens",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_mapping(t_uint32,t_address)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_bytes32": {
+        "encoding": "inplace",
+        "label": "bytes32",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_mapping(t_bytes32,t_address)": {
+        "encoding": "mapping",
+        "key": "t_bytes32",
+        "label": "mapping(bytes32 => address)",
+        "numberOfBytes": "32",
+        "value": "t_address"
+      },
+      "t_mapping(t_bytes32,t_bool)": {
+        "encoding": "mapping",
+        "key": "t_bytes32",
+        "label": "mapping(bytes32 => bool)",
+        "numberOfBytes": "32",
+        "value": "t_bool"
+      },
+      "t_mapping(t_uint32,t_address)": {
+        "encoding": "mapping",
+        "key": "t_uint32",
+        "label": "mapping(uint32 => address)",
+        "numberOfBytes": "32",
+        "value": "t_address"
+      },
+      "t_uint32": {
+        "encoding": "inplace",
+        "label": "uint32",
+        "numberOfBytes": "4"
+      }
+    }
+  }
+}
