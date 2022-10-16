@@ -6,7 +6,7 @@
   "author": "@holographxyz",
   "repository": {
     "type": "git",
-    "url": "https://github.com/holographxyz/holograph-protocol.git"
+    "url": "https://github.com/code-423n4/2022-10-holograph.git"
   },
   "main": "index.js",
   "files": [

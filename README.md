@@ -15,11 +15,11 @@ Holograph provides omnichain NFT infrastructure for the web3 ecosystem. Holograp
 ## 🧙 Setup Instructions and Codebase Overview:
 
 - [Holograph Protocol Specification](https://docs.holograph.xyz/holograph-protocol/technical-specification)
-- [Holograph Code REPO - Specific branch and commit](https://github.com/holographxyz/holograph-protocol/tree/c4_audit)
-- [Holograph Code Setup](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/SETUP_README.md)
-- [Holograph Contract Descriptions](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/CONTRACT_DESCRIPTIONS.md)
-- [Holograph Flows (Bridge / Operator / Pods)](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/IMPORTANT_FLOWS.md)
-- [Holograph Full Detailed README](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README_DETAILS.md)
+- [Holograph Code REPO - Specific branch and commit](https://github.com/code-423n4/2022-10-holograph/tree/main)
+- [Holograph Code Setup](https://github.com/code-423n4/2022-10-holograph/blob/main/docs/SETUP_README.md)
+- [Holograph Contract Descriptions](https://github.com/code-423n4/2022-10-holograph/blob/main/docs/CONTRACT_DESCRIPTIONS.md)
+- [Holograph Flows (Bridge / Operator / Pods)](https://github.com/code-423n4/2022-10-holograph/blob/main/docs/IMPORTANT_FLOWS.md)
+- [Holograph Full Detailed README](https://github.com/code-423n4/2022-10-holograph/blob/main/README_DETAILS.md)
 
 ## 🛫 Quick Start
 
@@ -43,7 +43,7 @@ yarn clean-compile
 
 ### Run local chains (restart ganache after every full test run)
 
-Terminal 1 
+Terminal 1
 
 ```bash
 yarn ganache-x2
@@ -57,7 +57,7 @@ Terminal 2
 yarn test
 ```
 
-After this completes, don't forget to restart ganache. Some tests may fail upon running a  second time.
+After this completes, don't forget to restart ganache. Some tests may fail upon running a second time.
 
 ### Building
 
@@ -107,7 +107,6 @@ Again, files from the `src` directory are automatically transpiled into the `con
 ## 📁 Directory Structure
 
 ```
-.
 ├── config: Network configuration files
 ├── contracts: Smart contracts that power the Holograph protocol
 ├── deploy: Deployment scripts for the smart contracts uses Hardhat and our Hardhat and Hardhat-deploy

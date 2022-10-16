@@ -211,19 +211,17 @@ Again, files from the `src` directory are automatically transpiled into the `con
 
 Please make use of the `yarn run prettier:fix` command to format the codebase into a universal style.
 
-## Directory Structure
+## 📁 Directory Structure
 
-<pre>
-root
-
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/config">config</a>: Network configuration files
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/contracts">contracts</a>: Smart contracts that power the Holograph protocol
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deploy">deploy</a>: Deployment scripts for the smart contracts uses <a href="https://hardhat.org/">Hardhat</a> and <a href="https://github.com/wighawag/hardhat-deploy">Hardhat Deploy</a>
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deployments">deployments</a>: Deployment build files that include contract addresses on each network
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/scripts">scripts</a>: Scripts and helper utilities
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/src">src</a>: Source contracts that get dynamically transpiled down into the finalized output <a href="./contracts">contracts</a>
-└── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/test">test</a>: Hardhat tests for the smart contracts
-</pre>
+```
+├── config: Network configuration files
+├── contracts: Smart contracts that power the Holograph protocol
+├── deploy: Deployment scripts for the smart contracts uses Hardhat and our Hardhat and Hardhat-deploy
+├── deployments: Deployment build files that include contract addresses on each network
+├── scripts: Scripts and helper utilities
+├── src: Source contracts that get dynamically transpiled down into the finalized output contracts
+└── test:Hardhat tests for the smart contracts
+```
 
 ## For C4 Wardens
 
@@ -259,12 +257,12 @@ root
 
 ### Active Branches
 
-| Branch                                                                     | Status                                                                             |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [mainnet](https://github.com/holographxyz/holograph-protocol/tree/mainnet) | Accepts PRs from `testnet` or `release/x.x.x` when we intend to deploy to mainnet. |
-| [testnet](https://github.com/holographxyz/holograph-protocol/tree/testnet) | Accepts PRs from `develop` that are ready to be deployed to testnet.               |
-| [develop](https://github.com/holographxyz/holograph-protocol/tree/develop) | Accepts PRs from `feature/xyz` branches that are experimental or in testing stage. |
-| release/x.x.x                                                              | Accepts PRs from `testnet`.                                                        |
+| Branch                                                                  | Status                                                                             |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [mainnet](https://github.com/code-423n4/2022-10-holograph/tree/mainnet) | Accepts PRs from `testnet` or `release/x.x.x` when we intend to deploy to mainnet. |
+| [testnet](https://github.com/code-423n4/2022-10-holograph/tree/testnet) | Accepts PRs from `develop` that are ready to be deployed to testnet.               |
+| [develop](https://github.com/code-423n4/2022-10-holograph/tree/develop) | Accepts PRs from `feature/xyz` branches that are experimental or in testing stage. |
+| release/x.x.x                                                           | Accepts PRs from `testnet`.                                                        |
 
 ### Overview
 
@@ -284,7 +282,7 @@ The `testnet` branch continas the code that is the latest stable testnet release
 
 ### The `develop` branch
 
-Our primary development branch is [`develop`](https://github.com/holographxyz/holograph-protocol/tree/testnet).
+Our primary development branch is [`develop`](https://github.com/code-423n4/2022-10-holograph/tree/testnet).
 `develop` contains the most up-to-date software that is being tested via experimental network deployments.
 
 ## Contributing
@@ -302,4 +300,4 @@ Read through [CONTRIBUTING.md](./CONTRIBUTING.md) for a general overview of our 
 
 ## License
 
-Files under this repository are licensed under [Holograph Limited Public License](https://github.com/holographxyz/holograph-protocol/blob/testnet/LICENSE.md) (H-LPL) 1.0.0 unless otherwise stated.
+Files under this repository are licensed under [Holograph Limited Public License](https://github.com/code-423n4/2022-10-holograph/blob/testnet/LICENSE.md) (H-LPL) 1.0.0 unless otherwise stated.
