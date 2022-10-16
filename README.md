@@ -16,10 +16,10 @@ Holograph provides omnichain NFT infrastructure for the web3 ecosystem. Holograp
 
 - [Holograph Protocol Specification](https://docs.holograph.xyz/holograph-protocol/technical-specification)
 - [Holograph Code REPO - Specific branch and commit](https://github.com/holographxyz/holograph-protocol/tree/c4_audit)
-- [Holograph Code Setup](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README_DETAILS.md)
+- [Holograph Code Setup](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README.md)
 - [Holograph Contract Descriptions](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/CONTRACT_DESCRIPTIONS.md)
 - [Holograph Flows (Bridge / Operator / Pods)](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/IMPORTANT_FLOWS.md)
-- [Holograph Full Detailed README](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README.md)
+- [Holograph Full Detailed README](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README_DETAILS.md)
 
 ## 🛫 Quick Start
 
@@ -104,14 +104,12 @@ Again, files from the `src` directory are automatically transpiled into the `con
 
 ## 📁 Directory Structure
 
-<pre>
 root
 
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/config">config</a>: Network configuration files
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/contracts">contracts</a>: Smart contracts that power the Holograph protocol
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deploy">deploy</a>: Deployment scripts for the smart contracts uses <a href="https://hardhat.org/">Hardhat</a> and <a href="https://github.com/wighawag/hardhat-deploy">Hardhat Deploy</a>
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deployments">deployments</a>: Deployment build files that include contract addresses on each network
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/scripts">scripts</a>: Scripts and helper utilities
-├── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/src">src</a>: Source contracts that get dynamically transpiled down into the finalized output <a href="./contracts">contracts</a>
-└── <a href="https://github.com/holographxyz/holograph-protocol/tree/c4_audit/test">test</a>: Hardhat tests for the smart contracts
-</pre>
+- [config](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/config): Network configuration files
+- [contracts](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/contracts): Smart contracts that power the Holograph protocol
+- [deploy](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deploy): Deployment scripts for the smart contracts uses [Hardhat](https://hardhat.org/) and [Hardhat Deploy](https://github.com/wighawag/hardhat-deploy)
+- [deployments](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/deployments): Deployment build files that include contract addresses on each network
+- [scripts](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/scripts): Scripts and helper utilities
+- [src](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/src): Source contracts that get dynamically transpiled down into the finalized output [contracts](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/contracts)
+- [test](https://github.com/holographxyz/holograph-protocol/tree/c4_audit/test): Hardhat tests for the smart contracts
