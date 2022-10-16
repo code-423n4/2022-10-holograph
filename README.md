@@ -15,11 +15,11 @@ Holograph provides omnichain NFT infrastructure for the web3 ecosystem. Holograp
 ## 🧙 Setup Instructions and Codebase Overview:
 
 - [Holograph Protocol Specification](https://docs.holograph.xyz/holograph-protocol/technical-specification)
-- [Holograph Code REPO - Specific branch](https://github.com/holographxyz/holograph-protocol/tree/c4_audit)
-- [Holograph Code Setup](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/)
+- [Holograph Code REPO - Specific branch and commit](https://github.com/holographxyz/holograph-protocol/tree/c4_audit)
+- [Holograph Code Setup](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README.md)
 - [Holograph Contract Descriptions](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/CONTRACT_DESCRIPTIONS.md)
 - [Holograph Flows (Bridge / Operator / Pods)](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/docs/IMPORTANT_FLOWS.md)
-- [Holograph Full Detailed README](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README.md)
+- [Holograph Full Detailed README](https://github.com/holographxyz/holograph-protocol/blob/c4_audit/README_DETAILS.md)
 
 ## 🛫 Quick Start
 
