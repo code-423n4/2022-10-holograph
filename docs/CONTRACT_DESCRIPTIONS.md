@@ -74,7 +74,7 @@ A base implementation of a holographable ERC20 contract.
 
 ### abstract/ERC721H.sol
 
-A base implementation of a holographable ERC20 contract.
+A base implementation of a holographable ERC721 contract.
 
 ## Interface Contracts
 
