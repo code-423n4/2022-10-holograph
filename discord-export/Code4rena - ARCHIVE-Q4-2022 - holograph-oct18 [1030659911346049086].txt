@@ -1,0 +1,933 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2022 / holograph-oct18
+==============================================================
+
+[10/15/2022 01:58] itsmetechjay (pinned)
+👋 Hello and welcome to the contest channel for the $75K USDC **Holograph **contest!
+
+📆 Contest opens Tuesday, 18 October 2022 20:00 (20:00 UTC) and runs through Tuesday, 25 October 2022 20:00 (20:00 UTC) (7 days).
+
+Please give a warm welcome to the Holograph team, particularly @Third Man Jack, @acc01ade , @angello-dev and @lostmidas, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-10-holograph-contest
+
+{Embed}
+https://code4rena.com/contests/2022-10-holograph-contest
+Code4rena Holograph contest
+$75,000 USDC
+18 October 2022—25 October 2022
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/C4-banner-7C19B.png
+
+{Reactions}
+🚀 (10) C4Keycap (6) ReducedMarkWhite (3) 🙌 (3) 💯 (2) ❤️ (2) 
+
+[10/15/2022 02:04] itsmetechjay
+Pinned a message.
+
+
+[10/15/2022 08:02] Franfran#5067
+hey
+
+{Reactions}
+🔥 (4) 
+
+[10/16/2022 20:00] thirdmanjack
+Hi all! Looking forward to this!
+
+{Reactions}
+PU_peepoHappyWave (10) 👋🏻 (6) 
+
+[10/17/2022 22:37] haruxe
+:PagChomp: welcome welcome
+
+{Reactions}
+🙏 (2) LFG (3) 
+
+[10/18/2022 13:56] thirdmanjack
+It’s audit kickoff day! Would love for anyone who is interested to join us in our town hall with C4 to kick it off https://discord.gg/UDADb9ba?event=1029550906141851648
+
+{Reactions}
+🎉 (5) 🔥 (2) 🚀 (3) 
+
+[10/18/2022 14:02] minh___
+could you record it for those who can not attend?
+
+{Reactions}
+➕ (4) 
+
+[10/18/2022 14:03] thirdmanjack
+You bet! Will record and share here
+
+{Reactions}
+🙏 (3) 
+
+[10/18/2022 15:38] alexander9001
+Today's the day! 🚀
+
+{Reactions}
+🎉 (4) 🔥 (2) ReducedMarkWhite Aqua_Alarm clap (2) 
+
+[10/18/2022 16:38] acc01ade
+Really looking forward to everyone diving into the code and finding all the possible ways to break it 🤓
+
+{Reactions}
+PU_ppNoU (4) 
+
+[10/18/2022 20:02] thirdmanjack (pinned)
+Our details are live for the contest! 
+Contest: https://code4rena.com/contests/2022-10-holograph-contest
+
+If you missed our kickoff event with C4 you can check it out here: https://youtu.be/djpKKBv3EBk
+
+{Embed}
+https://code4rena.com/contests/2022-10-holograph-contest
+Code4rena Holograph contest
+$75,000 USDC
+18 October 2022—25 October 2022
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/9dccfc86-3bef-4ebf-b3c9-0a838fa2aff1-BC616
+
+{Embed}
+Holograph
+https://www.youtube.com/watch?v=djpKKBv3EBk
+Holograph x C4 Audit Contest Kickoff
+Holograph x Code4rena teams discuss their projects and partnership details around the $75k USDC audit contest.
+
+Contest: https://code4rena.com/contests/2022-10-holograph-contest
+Discord: discord.gg/holograph
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/maxresdefault-03ED7.jpg
+
+
+[10/18/2022 20:14] ladboy233
+Hello!
+
+{Reactions}
+👋 (5) ReducedMarkWhite 
+
+[10/18/2022 20:16] thepicodes (pinned)
+**Automated Findings**
+
+C4udit: https://gist.github.com/Picodes/8051484877cc729c1ac31d24228ebae5
+Improved C4udit: https://gist.github.com/Picodes/e9f1bb87ae832695694175abd8f9797f
+
+{Reactions}
+thankyou (3) 
+
+[10/18/2022 20:20] itsmetechjay
+Pinned a message.
+
+
+[10/18/2022 20:22] itsmetechjay
+@🐺wardens - please note that c4audit output has been posted above and added to pinned posts. These are considered **publicly known issues** and are **not eligible for awards.**
+
+{Reactions}
+C4Keycap (16) 
+
+[10/18/2022 23:34] seyni#0562
+Hello, is someone from the team available, please ? I tried to dm but its not open
+
+
+[10/18/2022 23:35] angello-holograph#3035
+hey seyni whats up
+
+
+[10/18/2022 23:35] seyni#0562
+hey, can I dm ?
+
+
+[10/18/2022 23:36] angello-holograph#3035
+sure
+
+{Reactions}
+👍 (2) 
+
+[10/18/2022 23:46] alexander9001
+👋
+
+{Reactions}
+ReducedMarkWhite 
+
+[10/19/2022 08:27] kartoonjoy
+Pinned a message.
+
+
+[10/19/2022 09:42] 0xmatt#3768
+What's the improved c4udit? Also is there a link to a repo so I can make sure my checks don't overlap?
+
+
+[10/19/2022 10:33] thepicodes
+It's a version of C4udit I've made accessible here: https://github.com/Picodes/code4rena-report-generator. You're welcome to contribute 🙂
+
+
+[10/19/2022 10:34] thepicodes
+But actually it has not been endorsed by C4, it took the initiative to run it
+
+
+[10/19/2022 10:34] thepicodes
+Main difference being that it's in typescript and should be more flexible than C4udit
+
+
+[10/19/2022 16:28] rotcivegaf
+I send a DM
+
+{Reactions}
+🔥 (2) 
+
+[10/19/2022 21:27] rotcivegaf
+I have more questions....
+and I did not receive answers from the previous ones
+
+
+[10/19/2022 21:30] thirdmanjack
+@acc01ade @angello-dev @alexander @lostmidas
+
+{Reactions}
+👍 (2) 
+
+[10/19/2022 21:35] angello-holograph#3035
+@Rotcivegaf I am circling back with the team for a longer response.
+
+
+[10/19/2022 23:29] adriro
+@angello-dev sending you a dm
+
+{Reactions}
+🔥 (3) 
+
+[10/20/2022 09:54] 0xa5df
+Hi
+Is any dev available now?
+
+{Reactions}
+👋 
+
+[10/20/2022 10:11] acc01ade
+Yep I’m available
+
+
+[10/20/2022 10:17] 0xa5df
+Dm'd
+
+{Reactions}
+🔥 
+
+[10/20/2022 22:20] thirdmanjack
+How is everything??
+
+
+[10/21/2022 00:22] Quisex#4394
+Would there happen to be an SPDX License identifier ?
+
+
+[10/21/2022 05:15] thirdmanjack
+@acc01ade
+
+
+[10/21/2022 10:07] acc01ade
+We don’t use a standard license. So the code is marked as UNLICENSED and a custom license is included in text.
+
+
+[10/21/2022 11:32] zhyd1997
+Maybe `// SPDX-License-Identifier: SEE LICENSE IN LICENSE` is better 👀
+
+
+[10/21/2022 14:48] acc01ade
+That's already done in `package.json` file https://github.com/code-423n4/2022-10-holograph/blob/main/package.json#L5
+Can't really do that in smart contracts since they don't reference repo and have source code immediately viewable on block explorers like Etherscan.
+Makes more sense to just label as "UNLICENSED" and attach license text at top of each file.
+
+{Embed}
+https://github.com/code-423n4/2022-10-holograph/blob/main/package.json
+2022-10-holograph/package.json at main · code-423n4/2022-10-holograph
+Contribute to code-423n4/2022-10-holograph development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/9dccfc86-3bef-4ebf-b3c9-0a838fa2aff1-BC616
+
+{Reactions}
+👍 (4) 
+
+[10/22/2022 15:05] jayphbee
+what is "beam" ?
+
+
+[10/22/2022 15:32] thirdmanjack
+Beam is our term for the activity of holographic bridging. Since our process is different than a typical bridge, “beam” is more appropriate. Hope this helps!
+
+
+[10/22/2022 15:48] trust90
+All the different operator nodes running the CLI will use the same trusted operator address for on-chain calls?
+
+
+[10/22/2022 17:56] acc01ade
+Could you clarify the question? Are you referring to if they call the same on-chain smart contract address to execute the job, or if they all use the same private key / wallet to send the transaction to the chain?
+
+
+[10/22/2022 18:02] trust90
+Yeah I was asking about the second option but looking through HolographOperator answered it
+
+
+[10/22/2022 18:03] trust90
+Still, a description of the trust model of operators and how their work is verified to be honest would be welcome.
+
+
+[10/22/2022 18:50] alexander9001
+If operators fail to execute jobs they are selected for their bond is slashed
+
+
+[10/22/2022 18:50] alexander9001
+And the job will be reassigned to a new operator
+
+
+[10/22/2022 18:52] alexander9001
+Jobs contain the full call data to complete the transaction on the destination chain
+
+{Reactions}
+👍 
+
+[10/23/2022 07:59] acc01ade
+Agreed, we’re slowly writing out a more in-depth overview for all the aspects of the protocol.
+
+
+[10/23/2022 21:34] minh___
+fyi, LayerZeroModule is missing in the following README, but is in scope according to the C4 repo: https://github.com/code-423n4/2022-10-holograph/blob/main/README_DETAILS.md#in-scope-
+
+{Embed}
+https://github.com/code-423n4/2022-10-holograph/blob/main/README_DETAILS.md
+2022-10-holograph/README_DETAILS.md at main · code-423n4/2022-10-ho...
+Contribute to code-423n4/2022-10-holograph development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/9dccfc86-3bef-4ebf-b3c9-0a838fa2aff1-BC616
+
+{Reactions}
+👍 (2) 
+
+[10/23/2022 23:56] ladboy233
+Hello , who can I dm for some technical question? Thanks!
+
+
+[10/24/2022 01:00] _oceansky
+Is it possible to compile the publicly known findings into one? supposedly  only one link thanks.
+
+
+[10/24/2022 01:03] ladboy233
+```solidity
+  /**
+   * @notice Deploy a holographable smart contract
+   * @dev Using this function allows to deploy smart contracts that have the same address across all EVM chains
+   * @param config contract deployement configurations
+   * @param signature that was created by the wallet that created the original payload
+   * @param signer address of wallet that created the payload
+   */
+  function deployHolographableContract(
+    DeploymentConfig memory config,
+    Verification memory signature,
+    address signer
+  ) external {
+    address registry;
+    address holograph;
+    assembly {
+      holograph := sload(_holographSlot)
+      registry := sload(_registrySlot)
+    }
+```
+
+
+[10/24/2022 01:04] ladboy233
+what kind of contract can be deployed cross-chain?
+
+
+[10/24/2022 01:04] ladboy233
+it is only HolographERC721. HolographERC20
+
+
+[10/24/2022 01:04] ladboy233
+?
+
+
+[10/24/2022 01:04] ladboy233
+what is a "holographable smart contract"
+
+
+[10/24/2022 01:23] ladboy233
+Or may I ask what makes a smart contract holographable?
+
+
+[10/24/2022 02:08] 100proof
+@0xladboy | Sparkware Are you asking how they get the same address on all chains?
+
+
+[10/24/2022 02:10] 100proof
+If so, then it's because you use the EVM `CREATE2` opcode to deploy them.
+
+
+[10/24/2022 02:11] 100proof
+I think it's only the same source code on all the chains. Each contract instance has separate data still.
+
+
+[10/24/2022 02:13] acc01ade
+You can DM me @acc01ade or one of our other devs @angello-dev @alexander
+
+
+[10/24/2022 02:19] acc01ade
+Any standards compliant contract can be deployed cross-chain. The HolographERC20 and HolographERC721 are the first standards enforcers in the protocol. They exist in a stack that is higher that the deployed custom code, they make sure standards are followed and enforced. Underlying custom code can be written to act however it needs to. Some simple samples of custom code are shown in the `contracts/token` dir. The protocol is built to be modular. Over time, new standards will be supported/added. ERC1155 is a perfect example of next standard being added. A user/dev can deploy contracts by creating a config, which primarily requires to specify which standard/type the contract will be following.
+
+{Reactions}
+👏🏻 (4) 👆 (2) 
+
+[10/24/2022 02:24] acc01ade
+The deployed holographable contract is a stack of contracts actually. Holographer, enforcer (ERC20, ERC721, etc.), PA1D (if ERC721), and custom contract (samples: SampleERC20, SampleERC721, and CxipERC721). Function calls are routed through Holographer, which then forwards calls to enforcers, which eventually forward the calls to custom contract logic. The goal of enforcers is to do all the validation, security, and standards logic. The goal of custom contracts is to build all other logic (tokenURI for ERC721 for example).
+
+{Reactions}
+👆 (3) 
+
+[10/24/2022 11:24] ladboy233
+The DM with acc01ade is really helpful! Thanks!
+
+{Reactions}
+❤️ (2) 
+
+[10/24/2022 11:24] ladboy233
+🚀
+
+
+[10/24/2022 11:59] teawaterwire
+i don't understand what's going on after the `lZEndpoint.send` call in `LayerZeroModule.sol`  -- what is this endpoint?
+
+
+[10/24/2022 12:03] 0xa5df
+They're using the LayerZero protocol
+https://layerzero.gitbook.io/docs/
+
+{Reactions}
+👍 
+
+[10/24/2022 12:06] teawaterwire
+oh thank you. this was driving me crazy, didn't realize this was another protocol!
+
+
+[10/24/2022 12:34] 0xa5df
+Same here, I think Holograph should include that in the docs
+
+{Reactions}
+🔥 
+
+[10/24/2022 13:02] acc01ade
+Good point. We kind of assumed everyone knew what’s going on there 😬
+That lzEndpoint.send call is where the message leaves our protocol and is handled by LayerZero until it enters in LayerZeroModule.lzReceive call on the destination chain back into our protocol.
+
+{Reactions}
+👍🏻 (4) 
+
+[10/25/2022 10:34] road220
+btw, how to remove GitBranch fetches for script runs? It doesn't allow me to make some changes in `.sol` and compile...
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/Screenshot_from_2022-10-25_13-32-33-C686F.png
+
+{Reactions}
+👍 
+
+[10/25/2022 11:02] acc01ade
+The logic is in this function -->> https://github.com/code-423n4/2022-10-holograph/blob/main/hardhat.config.ts#L22
+Modify the code to be like this: ```
+const getEnvironment = (): Environment => {
+  let environment = Environment.experimental;
+  const acceptableBranches: Set<string> = new Set<string>(['experimental', 'develop', 'testnet', 'mainnet']);
+  const env: string = process.env.HOLOGRAPH_ENVIRONMENT || '';
+  if (acceptableBranches.has(env)) {
+    console.log('HOLOGRAPH_ENVIRONMENT:', env);
+    environment = Environment[env as keyof typeof Environment];
+  }
+  console.log('Environment:', environment);
+
+  return environment;
+};
+```
+Now it will only check for env var `$HOLOGRAPH_ENVIRONMENT` that can be used to overwrite it from `experimental` to something else.
+
+{Reactions}
+thankyou (2) 🔥 
+
+[10/25/2022 12:17] pedr02b2
+thanks
+
+
+[10/25/2022 17:52] acc01ade
+Friendly reminder that there's only 2 hours left for this competition. Make sure to submit those reports in time!
+
+{Reactions}
+❤️ (3) ReducedMarkWhite (2) 
+
+[10/25/2022 18:12] alexander9001
+🚀
+
+
+[10/25/2022 20:01] road220
+yeah, thanks for such great contest! Devs were also pretty helpful!
+
+
+[10/25/2022 20:01] thirdmanjack
+We also have a warden thread contest that is still on going!
+
+
+[10/25/2022 20:02] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens  The **Holograph **contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+
+[10/25/2022 20:02] trust90
+Holy crap, managed to sent my last one at the literal last minute.
+
+{Reactions}
+❤️ (6) 
+
+[10/25/2022 20:02] road220
+ahaha, the same!
+
+{Reactions}
+🤣 (2) 
+
+[10/25/2022 20:02] trust90
+Well done Holograph, was a pleasure
+
+{Reactions}
+🔥 (3) 
+
+[10/25/2022 20:03] alexander9001
+Awesome! Thanks to all the auditors 👏
+
+{Reactions}
+ReducedMarkWhite (4) 
+
+[10/25/2022 20:03] acc01ade
+You were awesome wardens. Very happy to have everyone dig through our code and find any flaws in it!
+
+{Reactions}
+thankyou (4) 
+
+[10/25/2022 20:05] d3e4
+The same, and I updated it I think literally the last second. Didn't have time to do my last one.
+
+
+[10/25/2022 20:19] liveactionllamac4
+Hi @d3e4! Just a reminder, please do not discuss any potential findings until after the contest report and findings repo are public. TY!
+
+
+[10/25/2022 20:19] 0xa5df
+Congrats, I failed to send my QA report.
+I think since we have the editing option the best practice is to send a draft a few minutes beforehand and edit it later
+
+{Reactions}
+😬 
+
+[10/25/2022 20:43] road220
+it's not possible for non-backstage wardens
+
+
+[10/25/2022 21:51] 0xa5df
+I have backstage access, but I doubt it'll be counted if I just post it there
+
+
+[10/25/2022 21:54] trust90
+Agree with that
+
+
+[10/26/2022 04:00] chaduke3730
+@acc01adethanks very helpful
+
+{Reactions}
+💯 (5) 
+
+[11/25/2022 00:29] ry.shaw
+👀
+
+
+[11/25/2022 00:31] ry.shaw
+How far along are we for the Holograph announcements?
+
+
+[11/25/2022 00:53] ladboy233
+:4739_Skeletor:
+
+
+[11/25/2022 04:05] bulej93
+https://discord.com/channels/810916927919620096/810929015509483554/1045101769987981363
+
+
+[11/25/2022 04:36] pfapostol
+https://discord.com/channels/810916927919620096/810929015509483554/1044996213809893468
+
+
+[11/28/2022 19:56] ladboy233
+👀
+
+
+[11/29/2022 13:02] adriro
+👀  https://github.com/code-423n4/code423n4.com/pull/5743/files
+
+{Embed}
+https://github.com/code-423n4/code423n4.com/pull/5743/files
+Add Holograph results by CloudEllie · Pull Request #5743 · code-423...
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/84729667-C9F7E
+
+{Reactions}
+👀 (5) 
+
+[11/29/2022 14:04] ladboy233
+:hi5:
+
+
+[11/29/2022 21:29] road220
+is it finalized? I don't see my H-xx submission there. It's 100% valid and has over 10 dups(info from sponsor)
+@CloudEllie - away
+
+
+[11/30/2022 00:15] liveactionllamac4
+🤑 🎉 Awards for **Holograph**:
+
+$27,733.34 USDC » @Trust 
+$6,718.76 USDC » @0xA5DF 
+$6,646.71 USDC » @Roman 
+$4,660.40 USDC » @0x52 
+$2,709.47 USDC » @0xladboy | Sparkware 
+$2,594.44 USDC » @rbserver 
+$2,594.44 USDC » @securerodd 
+$2,594.44 USDC » @bin2chen 
+$1,331.96 USDC » @adriro 
+$1,241.69 USDC » @Chom 
+$1,015.51 USDC » @eighty 
+$936.00 USDC » @Rolezn 
+$874.77 USDC » @Jeiwan 
+$837.97 USDC » @thinklab 
+$833.77 USDC » @d3e4 
+$783.15 USDC » V_B (@Barichek & @Vlad B | zkSync)
+$771.29 USDC » @0xSmartContract 
+$771.29 USDC » @RaymondFam 
+$648.38 USDC » @csanuragjain 
+$577.36 USDC » @Deivitto 
+$575.39 USDC » @Rotcivegaf 
+$549.04 USDC » @0xNazgul 
+$549.04 USDC » @lukris02 
+$377.87 USDC » @Picodes | Angle 
+$351.52 USDC » @cryptphi 
+$318.36 USDC » @__141345__ 
+$277.94 USDC » @Bnke 
+$277.94 USDC » @RedOneN 
+$277.92 USDC » @ajtra 
+$277.92 USDC » @Diana 
+$277.92 USDC » @m_Rassska 
+$234.35 USDC » @m9800 
+$222.25 USDC » @gkrastenov 
+$222.25 USDC » @karanctf 
+$192.77 USDC » @peanuts 
+$132.64 USDC » @code-cipher 
+$112.29 USDC » @ctf_sec 
+$105.46 USDC » @imare 
+$82.04 USDC » @martin11 
+$82.03 USDC » @B2 
+$82.03 USDC » @ch0bu 
+$82.03 USDC » @cryptostellar5 
+$82.03 USDC » @delfin454000 
+$82.03 USDC » @EricTee 
+$82.03 USDC » @fatherOfBlocks 
+$82.03 USDC » @KoKo
+$82.03 USDC » @0xwhiteDevil 
+$82.03 USDC » @mcwildy 
+$82.03 USDC » @ReyAdmirado 
+$82.03 USDC » @saneryee 
+$82.03 USDC » @svskaushik 
+$82.03 USDC » @Waze 
+$65.82 USDC » @joestakey 
+$62.52 USDC » @cccz 
+$57.64 USDC » @cdahlheimer 
+$55.69 USDC » @brgltd 
+$55.67 USDC » @0xZaharina
+$55.67 USDC » @aysha 
+$55.67 USDC » @bobirichman7542 
+$55.67 USDC » @catchup 
+$55.67 USDC » @djxploit 
+$55.67 USDC » @mics
+$55.67 USDC » @nicobevi.eth 
+$55.67 USDC » @sakshamguruji 
+$55.67 USDC » @8olidity 
+$55.67 USDC » @Josiah 
+$55.67 USDC » @pedr02b2 
+$55.67 USDC » @rvierdiiev 
+$26.37 USDC » @Dinesh11G 
+$26.37 USDC » @vv7 
+$26.35 USDC » @0x1f8b 
+$26.35 USDC » @0xsam 
+$26.35 USDC » @durianSausage 
+$26.35 USDC » @exolorkistis 
+$26.35 USDC » @gianganhnguyen 
+$26.35 USDC » @gogo 
+$26.35 USDC » @Shawn 
+$26.35 USDC » @i_got_hacked 
+$26.35 USDC » @iepathos 
+$26.35 USDC » @JC 
+$26.35 USDC » @JrNet 
+$26.35 USDC » @++Jujic#5558 
+$26.35 USDC » @Mathieu 
+$26.35 USDC » @Metatron 
+$26.35 USDC » @Mukund 
+$26.35 USDC » @peiw 
+$26.35 USDC » @Pheonix 
+$26.35 USDC » @ret2basic.eth 
+$26.35 USDC » @ryshaw 
+$26.35 USDC » @Saintcode_ 
+$26.35 USDC » @sakman 
+$26.35 USDC » @Satyam_Sharma 
+$26.35 USDC » Shinchan (@Sm4rty, @Prasant Gupta, & @Rohan)
+$26.35 USDC » @Tomio 
+$26.35 USDC » @zishansami 
+$11.44 USDC » @minhtrng 
+$6.83 USDC » @arcoun 
+$1.97 USDC » @nadin 
+$1.97 USDC » @teawaterwire 
+$0.02 USDC » @2997ms 
+$0.02 USDC » @ballx
+$0.02 USDC » @chaduke 
+$0.02 USDC » @pashov
+
+{Reactions}
+❤️ (3) 
+
+[11/30/2022 00:15] liveactionllamac4
+🏁 Findings summary
+---------------------------
+High risk findings: 22 total, 8 unique
+Med risk findings: 63 total, 19 unique
+Gas optimization: 99
+QA reports: 113
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+***Note: If you participated in this contest and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.***
+
+
+[11/30/2022 01:07] .satyam_
+Hello,one confusion on award distribution
+
+
+[11/30/2022 01:15] .satyam_
+Yesterday staff has provided a GitHub for the awards distribution,my name is mentioned 2 times over their..
+But yet on this award announcements only one award is mentioned
+
+Why it is so??
+
+
+[11/30/2022 01:19] .satyam_
+As from yesterday GitHub i calculated my total reward should be 54.28.something but here the total reward is not calculated only single award is been showed here
+
+
+[11/30/2022 01:24] bit.surfer
+its two different contest, you can check it again, the first field is id of contest
+
+
+[11/30/2022 01:29] .satyam_
+Is the Id 170 and 173?
+
+
+[11/30/2022 01:31] .satyam_
+I did not understand 🙃if any one here clear my doubt regarding id?
+
+
+[11/30/2022 01:32] mukund_rana
+id 173 is the id of holograph and id 170 was 3xcalibur i guess
+
+
+[11/30/2022 01:32] bit.surfer
+yes that's the contest id
+
+
+[11/30/2022 01:34] .satyam_
+Since 3xcalibur rewards have distributed than what's the logic of mentioning again?
+
+
+[11/30/2022 01:35] TurnipBoy#5973
+It wasn't mentioned again. The green lines where the ones added
+
+
+[11/30/2022 01:35] mukund_rana
+its not mentioned it is  a pull request to add award of id 170 in the list of all award from 1 to latest contests
+
+{Reactions}
+☝️ 
+
+[11/30/2022 01:36] .satyam_
+Ok thnx guys for helping out
+
+
+[11/30/2022 02:12] carlitox477
+@Trust congrats mentor!
+
+{Reactions}
+🙏 (2) 
+
+[11/30/2022 02:22] ladboy233
+👀
+
+
+[11/30/2022 10:20] cryptostaker
+thanks!
+
+
+[11/30/2022 19:29] road220
+please, someone from c4 team, what should I do?
+
+
+[11/30/2022 20:01] road220
+@acc01ade , it seems that judges missed my submission which we talked about and rewards also have been sent out, there is nothing to do about it, thanks C4!
+
+
+[11/30/2022 21:06] cloudellie
+Your issue was downgraded to QA and grouped with your QA report
+
+
+[11/30/2022 21:08] cloudellie
+If you wish to discuss further with the judge, you can make a request when the findings repo is made public. But the judges have final say and cannot provide a detailed explanation of every decision to each warden who competes in a contest.
+
+
+[11/30/2022 21:09] cloudellie
+Next time, if you have a question about a contest's outcome, please submit a help desk request and C4 staff will respond as we are able.
+
+
+[11/30/2022 21:44] road220
+i'll verify that, since it's too strange. Thanks a lot!
+PS... Sorry, I have a horrible day(losing seed phrase, cuz my OS crashed for unknown reasons + something weird with current finding)
+
+{Reactions}
+empathy (2) 
+
+[12/01/2022 22:08] chaduke3730
+How many submissions?
+
+
+[12/17/2022 19:21] ladboy233
+https://github.com/code-423n4/2022-10-holograph-findings/issues/270
+
+{Embed}
+https://github.com/code-423n4/2022-10-holograph-findings/issues/270
+ApprovalAll event is missing parameters · Issue #270 · code-423n4/2...
+Lines of code https://github.com/code-423n4/2022-10-holograph/blob/f8c2eae866280a1acfdc8a8352401ed031be1373/src/enforcer/HolographERC721.sol#L392 Vulnerability details Impact beforeApprovalAll() / ...
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/270-8A025
+
+{Reactions}
+👍 
+
+[12/17/2022 19:21] ladboy233
+How come this is a medium issue and not a QA?
+
+
+[12/17/2022 19:21] ladboy233
+It is because in this context, there are application monitoring and listening to the event emission for approval?
+
+
+[12/19/2022 06:57] teawaterwire
+is there a way to check the calculations of the award for transparency's sake? i completely trust C4 - but cannot wrap my head around why some of us finding a Medium vuln get only <$1 🤔
+
+
+[12/19/2022 07:14] bulej93
+duplicates
+
+
+[12/19/2022 07:38] teawaterwire
+i understand that, but still would be helpful to see "total number of shares" - i guess there must be a spreadsheet somewhere 🙂
+
+
+[12/19/2022 07:39] teawaterwire
+maybe i'm the only one - but being able to verify (and not trust) would be great
+
+
+[12/19/2022 07:42] bulej93
+this is as close as you might get https://discordapp.com/channels/810916927919620096/1030659911346049086/1047135539012313159
+
+
+[12/19/2022 07:49] birdy0219
+https://github.com/code-423n4/2022-10-holograph-findings/tree/main/data
+
+{Embed}
+https://github.com/code-423n4/2022-10-holograph-findings/tree/main/data
+2022-10-holograph-findings/data at main · code-423n4/2022-10-hologr...
+Contribute to code-423n4/2022-10-holograph-findings development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/106f4938-5fa9-4566-ab15-2972a3b9ce7e-202D3
+
+
+[12/19/2022 07:58] birdy0219
+75k contest with 8 High and 19 Med findings with 147 wardens submitting accepted findings
+Your finding M-06 was split between 10... Rough, but unfortunately how it works
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2022 - holograph-oct18 [1030659911346049086].txt_Files/image-7A939.png
+
+
+[12/19/2022 08:45] teawaterwire
+thanks for pointing this out 🙌 
+but the maths still don't make sense to me (not just for my case, i looked at other wardens) 
+following https://docs.code4rena.com/awarding/incentive-model-and-awards
+if there's 10 wardens on one med then the share formula is 
+`3 * (0.9 ^ (10 - 1)) / 10` = `0,1162261467` 
+
+not the 0.00302 given in your screenshot
+
+what am i getting wrong? or the formula changed?
+
+{Embed}
+https://docs.code4rena.com/awarding/incentive-model-and-awards
+Incentive model and awards
+
+
+[12/19/2022 08:49] kenzoagada
+This contest is one of 4 contests which were using 0.6 as the exponent, not 0.9
+
+{Reactions}
+👍 
+
+[12/19/2022 08:50] kenzoagada
+https://discord.com/channels/810916927919620096/810936719003090974/1044997595568799855
+
+
+[12/19/2022 09:05] teawaterwire
+wow ok that explains everything now! the 0.6 exponent is brutal
+
+
+[12/19/2022 14:56] pheonix244001
+awards distributed ?
+
+
+[12/21/2022 00:25] rotcivegaf
+Can the judge answer this question?
+
+
+[12/21/2022 00:28] ladboy233
+😢
+
+
+[12/21/2022 00:28] ladboy233
+it is finalized anyway
+
+
+[12/21/2022 00:28] ladboy233
+can learn from trust and 0x52 finding
+
+
+[12/21/2022 01:48] rotcivegaf
+but it is part of learning, I need to know why it is valid as a means
+for example report this https://github.com/code-423n4/2022-11-redactedcartel-findings/issues/334
+and it was demoted to qa, I think it's quite similar to this issue
+
+
+[12/21/2022 01:48] rotcivegaf
+This also helps to not report false med/high
+
+
+[12/21/2022 08:35] trust90
+Opened an org-level discussion on this class of issues https://github.com/code-423n4/org/issues/79
+
+
+==============================================================
+Exported 146 message(s)
+==============================================================
